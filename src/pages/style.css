@@ -21,17 +21,11 @@ h2 {
   font-size: 4rem;
 }
 
-.section {
-  margin-top: 8rem;
-}
 
 #contact {
   margin-bottom: 8rem;
 }
 
-.intro {
-  margin-top: 4rem;
-}
 
 .elegant {
   font-family: "Elegant";
@@ -42,12 +36,6 @@ h2 {
   font-size: 2rem;
 }
 
-@media (min-width: 992px) {
-  .navbar-brand {
-    font-size: 2.5rem;
-  }  
-}
-
 .nav-link {
   font-size: 1.45rem;
 }
@@ -56,4 +44,28 @@ ul {
 }
 nav.navbar {
   background-color: rgba(243, 204, 190, 0.13) !important;
+}
+
+.gatsby-image-wrapper-constrained {
+  margin-bottom: 1.2rem;
+}
+
+.section {
+  margin-top: 3rem;
+}
+.intro {
+  margin-top: 1rem;
+}
+
+/* Desktop view */
+@media (min-width: 992px) {
+  .section {
+    margin-top: 8rem;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }  
+  .intro {
+    margin-top: 4rem;
+  }
 }

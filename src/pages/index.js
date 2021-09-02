@@ -48,8 +48,11 @@ export default function Home() {
       <Fade>
       <Row className="section" id="about">
 
+        <Col className="vertical-center order-lg-2" md={12} lg={6}>
+        <StaticImage src="../images/KLSaboutme-1x1.jpg" alt="A photo of Kendel Lyn Stephens. Photo by Bartlett Pair Photography" />
+        </Col>
 
-        <Col className="vertical-center">
+        <Col className="vertical-center order-lg-1">
           <Row>
             <h2 className="about-header">Hi there,&thinsp;I'm Kendel&nbsp;Lyn!</h2>
             <p>
@@ -61,14 +64,8 @@ export default function Home() {
           </Row>
         </Col>
 
-        <Col className="vertical-center" md={12} lg={6}>
-        <StaticImage src="../images/KLSaboutme-1x1.jpg" alt="A photo of Kendel Lyn Stephens. Photo by Bartlett Pair Photography" />
-        </Col>
-
       </Row>
       </Fade>
-
-
 
 
       <Fade>
@@ -77,7 +74,7 @@ export default function Home() {
         <Col className="vertical-center">
           <StaticImage 
           src="../images/cake-reception.jpg"
-          alt="A wide view of an outdoor wedding ceremony setup." 
+          alt="A photo of a wedding cake by Bartlett Pair Photography." 
           />
         </Col>
 
@@ -106,19 +103,20 @@ export default function Home() {
       <Fade>
       <Row className="section" id="contact">
 
-        <Col className="vertical-center">
+        <Col className="vertical-center order-lg-2" md={12} lg={6}>
+        <StaticImage src="../images/carleyauston-ceremony-wide.jpg" alt="A wide view of a wedding reception setup. Photo by Elizabeth Mae Photography" />
+        </Col>
+
+        <Col className="vertical-center order-lg-1">
           <Row>
         <h2>Contact</h2>
         <p> Feel free to contact me via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
           </Row>
         </Col>
 
-        <Col className="vertical-center" md={12} lg={6}>
-        <StaticImage src="../images/carleyauston-ceremony-wide.jpg" alt="A wide view of a wedding reception setup. Photo by Bartlett Pair Photography" />
-        </Col>
-
       </Row>
       </Fade>
+
       
       <Nav
   activeKey="/home"
