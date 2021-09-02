@@ -110,7 +110,7 @@ export default function Home() {
         <Col className="vertical-center order-lg-1">
           <Row>
         <h2>Contact</h2>
-        <p> Feel free to contact me via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
+        <p> Feel free to contact me for more information and pricing via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
           </Row>
         </Col>
 
