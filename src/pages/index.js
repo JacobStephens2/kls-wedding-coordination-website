@@ -8,12 +8,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { StaticImage } from "gatsby-plugin-image"
 import "@fontsource/cormorant-garamond"
 import './style.css'
+import { Fade } from "react-awesome-reveal";
+
+
+
 
 export default function Home() {
   return <div>
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">KLS Wedding Coordination</Navbar.Brand>
+        <Navbar.Brand href="#home">KLS <div className="elegant">Wedding Coordination</div></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -26,25 +30,28 @@ export default function Home() {
     </Navbar>
 
     <Container>
+      <Fade>
       <Row className="intro">
 
-        <Col className="vertical-center" md={12} lg={6}>
+        <Col className="vertical-center" md={12} lg={7}>
         <StaticImage src="../images/reception-setup.jpg" alt="A wide view of an indoor wedding reception setup. Photo by Bartlett Pair Photography" />
         </Col>
 
-        <Col className="vertical-center" md={12} lg={6}>
+        <Col className="vertical-center">
           <h1>As an event professional and recent bride, it is my goal to assist other brides in having a care-free day with your family and friends that you will always cherish and&nbsp;remember.</h1>
         </Col>
 
       </Row>
+      </Fade>
 
 
+      <Fade>
       <Row className="section" id="about">
 
 
         <Col className="vertical-center">
           <Row>
-            <h2>Hi there, I'm Kendel Lyn!</h2>
+            <h2 className="about-header">Hi there,&thinsp;I'm Kendel&nbsp;Lyn!</h2>
             <p>
             I am an event planner at a local college, and a September 2020 bride. My husband and I were not planning on having a day-of wedding coordinator for our wedding, but we are so glad we ended up having someone to assist in making our day run smoothly from behind the&nbsp;scenes.
             </p>
@@ -59,20 +66,25 @@ export default function Home() {
         </Col>
 
       </Row>
+      </Fade>
 
 
 
 
+      <Fade>
       <Row className="section" id="services">
 
-        <Col className="vertical-center" md={12} lg={6}>
-          <StaticImage src="../images/carleyauston-ceremony-wide.jpg" alt="A wide view of an outdoor wedding ceremony setup." />
+        <Col className="vertical-center">
+          <StaticImage 
+          src="../images/cake-reception.jpg"
+          alt="A wide view of an outdoor wedding ceremony setup." 
+          />
         </Col>
 
-        <Col className="vertical-center">
+        <Col lg={7} md={12} className="vertical-center">
           <Row>
             <h2>Services</h2>
-            <h3>My coordination package includes the following services beginning 1-2 months before your wedding:</h3>
+            <h3>My coordination package includes the following services beginning 1-2 months before your&nbsp;wedding:</h3>
             <ul>
               <li>Up to 5 in-person meetings; one meeting will be a venue walkthrough with the bride and or groom. I will be available via email and phone to check-in and chat during discussed and agreed upon times, which does not count towards the 5 in-person meetings</li>
               <li>Vendor contract review to understand how your vendors will be helping you day-of</li>
@@ -88,23 +100,46 @@ export default function Home() {
         </Col>
 
       </Row>
+      </Fade>
 
 
+      <Fade>
       <Row className="section" id="contact">
 
         <Col className="vertical-center">
           <Row>
         <h2>Contact</h2>
-        <p> Feel free to contact me via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>.</p>
+        <p> Feel free to contact me via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
           </Row>
         </Col>
 
         <Col className="vertical-center" md={12} lg={6}>
-        <StaticImage src="../images/carleyauston-reception.jpg" alt="A wide view of a wedding reception setup. Photo by Bartlett Pair Photography" />
+        <StaticImage src="../images/carleyauston-ceremony-wide.jpg" alt="A wide view of a wedding reception setup. Photo by Bartlett Pair Photography" />
         </Col>
 
       </Row>
+      </Fade>
+      
+      <Nav
+  activeKey="/home"
+  onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+>
+  
+  <Nav.Item>
+    <Nav.Link eventKey="disabled" disabled>
+      Photo Credits
+    </Nav.Link>
+  </Nav.Item>
+
+  <Nav.Item>
+    <Nav.Link href="https://bartlettpairphotography.com/">Bartlett Pair Photography</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link href="https://elizabethmaephotography.com">Elizabeth Mae Photography</Nav.Link>
+  </Nav.Item>
+</Nav>
 
     </Container>
+    
       </div>
 }

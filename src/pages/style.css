@@ -1,5 +1,8 @@
+@import "../css/typography.css";
+
 body {
   font-family: "Cormorant Garamond";
+  font-size: 1.2rem;
 }
 
 .vertical-center {
@@ -9,6 +12,13 @@ body {
 
 h2 {
   text-align: center;
+  font-family: "Elegant";
+  font-size: 6rem;
+  line-height: 1.05;
+}
+
+.about-header {
+  font-size: 4rem;
 }
 
 .section {
@@ -21,4 +31,29 @@ h2 {
 
 .intro {
   margin-top: 4rem;
+}
+
+.elegant {
+  font-family: "Elegant";
+  display: inline;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 2.5rem;
+  }  
+}
+
+.nav-link {
+  font-size: 1.45rem;
+}
+ul {
+  margin-left: 19px;
+}
+nav.navbar {
+  background-color: rgba(243, 204, 190, 0.13) !important;
 }
