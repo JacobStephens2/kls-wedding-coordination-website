@@ -10,9 +10,6 @@ import "@fontsource/cormorant-garamond"
 import './style.css'
 import { Fade } from "react-awesome-reveal";
 
-
-
-
 export default function Home() {
   return <div>
     <Navbar bg="light" expand="lg">
@@ -110,7 +107,7 @@ export default function Home() {
         <Col className="vertical-center order-lg-1">
           <Row>
         <h2>Contact</h2>
-        <p> Feel free to contact me for more information and pricing via email at <a href="mailto:kendel.lyn@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
+        <p> Feel free to contact me for more information and pricing via email at <a href="mailto:kendel.lyn10@gmail.com">kendel.lyn10@gmail.com</a>.<br />Let's connect on <a href="https://www.facebook.com/klsweddingcoordination">Facebook</a>!</p>
           </Row>
         </Col>
 
@@ -119,23 +116,26 @@ export default function Home() {
 
       
       <Nav
-  activeKey="/home"
-  onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
->
+        activeKey="/home"
+        onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+      >
   
-  <Nav.Item>
-    <Nav.Link eventKey="disabled" disabled>
-      Photo Credits
-    </Nav.Link>
-  </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="disabled" disabled>
+            Photo Credits
+          </Nav.Link>
+        </Nav.Item>
 
-  <Nav.Item>
-    <Nav.Link href="https://bartlettpairphotography.com/">Bartlett Pair Photography</Nav.Link>
-  </Nav.Item>
-  <Nav.Item>
-    <Nav.Link href="https://elizabethmaephotography.com">Elizabeth Mae Photography</Nav.Link>
-  </Nav.Item>
-</Nav>
+        <Nav.Item>
+          <Nav.Link href="https://bartlettpairphotography.com/">Bartlett Pair Photography</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="https://elizabethmaephotography.com">Elizabeth Mae Photography</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link href="https://stewardgoods.com">Designed with Steward Goods Web Design</Nav.Link>
+        </Nav.Item>
+      </Nav>
 
     </Container>
     
