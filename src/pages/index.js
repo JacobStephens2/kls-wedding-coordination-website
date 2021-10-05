@@ -9,12 +9,12 @@ import { StaticImage } from "gatsby-plugin-image"
 import "@fontsource/cormorant-garamond"
 import './style.css'
 import { Fade } from "react-awesome-reveal";
+import { CustomerChat } from "../components/CustomerChat";
 
+function Home() {
+  return (
 
-
-
-export default function Home() {
-  return <div>
+  <div>
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">KLS <div className="elegant">Wedding Coordination</div></Navbar.Brand>
@@ -28,6 +28,8 @@ export default function Home() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    <CustomerChat />
 
     <Container>
       <Fade>
@@ -138,6 +140,8 @@ export default function Home() {
 </Nav>
 
     </Container>
-    
       </div>
+  )
 }
+
+export default Home
