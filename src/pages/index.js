@@ -10,11 +10,16 @@ import "@fontsource/cormorant-garamond"
 import './style.css'
 import { Fade } from "react-awesome-reveal";
 import { CustomerChat } from "../components/CustomerChat";
+import {Helmet} from "react-helmet";
 
 function Home() {
   return (
 
   <div>
+    <Helmet>
+      <title>KLS Wedding Coordination</title>
+      <meta name="description" content="Lancaster County wedding coordination services."></meta>
+      </Helmet>
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">KLS <div className="elegant">Wedding Coordination</div></Navbar.Brand>
