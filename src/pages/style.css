@@ -21,11 +21,9 @@ h2 {
   font-size: 4rem;
 }
 
-
 #contact {
   margin-bottom: 8rem;
 }
-
 
 .elegant {
   font-family: "Elegant";
@@ -42,6 +40,7 @@ h2 {
 ul {
   margin-left: 19px;
 }
+/* The navbar color in hex: #F3CCBE */
 nav.navbar {
   background-color: rgba(243, 204, 190, 0.13) !important;
 }
@@ -64,7 +63,7 @@ nav.navbar {
   }
   .navbar-brand {
     font-size: 2.5rem;
-  }  
+  }
   .intro {
     margin-top: 4rem;
   }
