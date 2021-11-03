@@ -19,6 +19,19 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "KLS Wedding Coordination",
+        short_name: "KLS Coordination",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#F3CCBE",
+        display: "standalone",
+        icon: "src/favicon_io/android-chrome-192x192.png",
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         // You can add multiple tracking ids and a pageview event will be fired for all of them.
