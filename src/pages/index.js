@@ -113,8 +113,8 @@ function Home() {
           <Row className="section" id="services">
             <Col className="vertical-center">
               <StaticImage
-                src="../images/cake-reception.jpg"
-                alt="A photo of a wedding cake by Bartlett Pair Photography."
+                src="../images/emilyaaron-kissing.jpg"
+                alt="A photo of a bride and groom kissing by Amy Tucker Photography."
               />
             </Col>
 
@@ -185,11 +185,6 @@ function Home() {
                     hi@klsweddingcoordination.com
                   </a>
                   .<br />
-                  Let's connect on{" "}
-                  <a href="https://www.facebook.com/klsweddingcoordination">
-                    Facebook
-                  </a>
-                  !
                 </p>
               </Row>
             </Col>
@@ -211,11 +206,19 @@ function Home() {
               Bartlett Pair Photography
             </Nav.Link>
           </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link href="http://www.amytuckerphotography.com/">
+              Amy Tucker Photography
+            </Nav.Link>
+          </Nav.Item>
+
           <Nav.Item>
             <Nav.Link href="https://elizabethmaephotography.com">
               Elizabeth Mae Photography
             </Nav.Link>
           </Nav.Item>
+
         </Nav>
       </Container>
     </div>
