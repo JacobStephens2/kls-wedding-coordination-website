@@ -89,7 +89,7 @@ function Home() {
             <Col className="vertical-center order-lg-1">
               <Row>
                 <h2 className="about-header">
-                  Hi there,&thinsp;I'm Kendel&nbsp;Lyn!
+                  Hi there,&thinsp;I'm&nbsp;Kendel&nbsp;Lyn!
                 </h2>
                 <p>
                   I am an event planner at a local college, and a September 2020
