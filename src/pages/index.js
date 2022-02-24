@@ -184,9 +184,9 @@ function Home() {
                   email at{" "}
                   <a href="mailto:hi@klsweddingcoordination.com">
                     hi@klsweddingcoordination.com
-
-                    
-                    <div class="fb-page" data-href="https://www.facebook.com/klsweddingcoordination/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/klsweddingcoordination/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/klsweddingcoordination/">KLS Wedding Coordination</a></blockquote></div>
+                    <li>
+                    <li>
+                    <<div class="fb-page" data-href="https://www.facebook.com/klsweddingcoordination/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/klsweddingcoordination/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/klsweddingcoordination/">KLS Wedding Coordination</a></blockquote></div>
                   </a>
                   .<br />
                 </p>
