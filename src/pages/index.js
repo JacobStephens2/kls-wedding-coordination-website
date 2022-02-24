@@ -12,6 +12,7 @@ import { Fade } from "react-awesome-reveal"
 import { CustomerChat } from "../components/CustomerChat"
 import { Helmet } from "react-helmet"
 
+<><div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="Hzvay9ww"></script></>
 function Home() {
   return (
     <div>
@@ -183,6 +184,7 @@ function Home() {
                   email at{" "}
                   <a href="mailto:hi@klsweddingcoordination.com">
                     hi@klsweddingcoordination.com
+                    <div class="fb-page" data-href="https://www.facebook.com/klsweddingcoordination/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/klsweddingcoordination/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/klsweddingcoordination/">KLS Wedding Coordination</a></blockquote></div>
                   </a>
                   .<br />
                 </p>
