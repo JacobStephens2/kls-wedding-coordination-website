@@ -167,32 +167,32 @@ function Home() {
         </Fade>
 
         <Fade>
+
           <Row className="section" id="contact">
-            <Col className="vertical-center order-lg-2" md={12} lg={6}>
+
+            <Col className="vertical-contact order-lg-2" md={12} lg={6}>
               <StaticImage
                 src="../images/carleyauston-ceremony-wide.jpg"
                 alt="A wide view of a wedding reception setup. Photo by Elizabeth Mae Photography"
               />
             </Col>
 
-            <Col className="vertical-center order-lg-1">
-              <Row>
-                <h2>Contact</h2>
+            <Col className="vertical-contact order-lg-1">
+              <h2>Contact</h2>
                 <p>
                   {" "}
                   Feel free to contact me for more information and pricing via
                   email at{" "}
                   <a href="mailto:hi@klsweddingcoordination.com">
                     hi@klsweddingcoordination.com
-                    <Row>
-                    <Row>
-                    <div class="fb-page" data-href="https://www.facebook.com/klsweddingcoordination/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/klsweddingcoordination/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/klsweddingcoordination/">KLS Wedding Coordination</a></blockquote></div>
                   </a>
                   .<br />
                 </p>
-              </Row>
+              <div class="fb-page" data-href="https://www.facebook.com/klsweddingcoordination/" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/klsweddingcoordination/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/klsweddingcoordination/">KLS Wedding Coordination</a></blockquote></div>
             </Col>
+
           </Row>
+
         </Fade>
 
         <Nav

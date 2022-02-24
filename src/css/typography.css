@@ -2,3 +2,6 @@
     font-family: "Elegant";
     src: url("../fonts/elegant-demo.ttf");
   }
+.vertical-contact {
+  align-items: center;
+}
